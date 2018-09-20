@@ -155,7 +155,7 @@ namespace SimpleCPUMiner
         public static string ProcessName = ExeFileName.Remove(ExeFileName.Length - 4, 4);
         public static string ApplicationPath = AppDomain.CurrentDomain.BaseDirectory;
         public static string ExecutablePath = AppDomain.CurrentDomain.BaseDirectory + ApplicationName + ".exe";
-        public const string ApplicationName = "TuSimpleMiner";
+        public const string ApplicationName = "Tu SimpleMiner";
         public static string PackFileName = ApplicationPath + "miners.zip";
         public static string ConfigFilePath = ApplicationPath + "config.bin";
         public static string PoolFilePath = ApplicationPath + "pools.xml";
