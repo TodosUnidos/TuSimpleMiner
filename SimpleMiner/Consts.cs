@@ -155,7 +155,7 @@ namespace SimpleCPUMiner
         public static string ProcessName = ExeFileName.Remove(ExeFileName.Length - 4, 4);
         public static string ApplicationPath = AppDomain.CurrentDomain.BaseDirectory;
         public static string ExecutablePath = AppDomain.CurrentDomain.BaseDirectory + ApplicationName + ".exe";
-        public const string ApplicationName = "SimpleMiner";
+        public const string ApplicationName = "TuSimpleMiner";
         public static string PackFileName = ApplicationPath + "miners.zip";
         public static string ConfigFilePath = ApplicationPath + "config.bin";
         public static string PoolFilePath = ApplicationPath + "pools.xml";
@@ -164,7 +164,7 @@ namespace SimpleCPUMiner
         public static string ApplicationConfigFile = ApplicationPath + "configuration.ini";
         public static string CustomConfigFile = ApplicationPath + "custom.ini";
         public const string StartupRegistryKey = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
-        public const string AboutContact = "simpleminerteam@gmail.com";
+        public const string AboutContact = "info@todosunidos.com";
         public static string addToDefenderExclusionBatchFilePath = ApplicationPath + "AddToDefenderExclusion.bat";
         public const string VendorAMD = "Advanced Micro Devices, Inc.";
         public const string VendorIntel = "Intel Corporation";

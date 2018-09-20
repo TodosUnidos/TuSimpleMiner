@@ -40,10 +40,10 @@ namespace SimpleCPUMiner
             if (vm.CustomSettings == null || string.IsNullOrEmpty(vm.CustomSettings.MainWindowTitle))
             {
 #if DEBUG
-                vm.MainWindowTitle = "Simple Miner " + Consts.VersionNumber + " - DEBUG MODE!!!";
+                vm.MainWindowTitle = "Tu Simple Miner " + Consts.VersionNumber + " - DEBUG MODE!!!";
 #else
 
-                vm.MainWindowTitle = "Simple Miner " + Consts.VersionNumber;
+                vm.MainWindowTitle = "Tu Simple Miner " + Consts.VersionNumber;
 #endif
             }
             else
